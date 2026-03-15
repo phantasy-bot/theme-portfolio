@@ -1,40 +1,19 @@
 {
   "name": "portfolio",
   "displayName": "Portfolio",
-  "description": "Creative portfolio with project grid",
   "version": "1.0.0",
-  "pages": [
-    {
-      "name": "index",
-      "path": "/",
-      "template": "pages/index.html"
-    },
-    {
-      "name": "project",
-      "path": "/project/:slug",
-      "template": "pages/project.html"
+  "description": "Portfolio theme for showcasing work, services, case studies, and a companion's operating stack.",
+  "author": "Phantasy Team",
+  "workspace": "site",
+  "extensionKind": "presentation",
+  "pages": {
+    "index": {
+      "template": "pages/index.html",
+      "route": "/"
     }
-  ],
-  "configSchema": {
-    "type": "object",
-    "properties": {
-      "accentColor": {
-        "type": "string",
-        "default": "#6366f1",
-        "description": "Primary accent color for highlights and links"
-      },
-      "columns": {
-        "type": "integer",
-        "minimum": 2,
-        "maximum": 4,
-        "default": 3,
-        "description": "Number of columns in project grid"
-      },
-      "showDescriptions": {
-        "type": "boolean",
-        "default": true,
-        "description": "Show project descriptions in grid view"
-      }
-    }
-  }
+  },
+  "layouts": {
+    "base": "layouts/base.html"
+  },
+  "assets": "assets"
 }
