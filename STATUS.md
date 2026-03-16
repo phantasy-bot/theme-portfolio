@@ -3,13 +3,13 @@
 Portfolio theme for showcasing work, services, case studies, and a companion's operating stack.
 
 - Repo URL: https://github.com/phantasy-bot/theme-portfolio
-- Extraction phase: `scaffold-only`
+- Extraction phase: `source-extracted`
 - Source of truth: `standalone-repo`
-- Sync mode: `scaffold-package`
+- Sync mode: `source-extract`
 
 ## Meaning
 
-This repo is scaffolded as the future source-of-truth for the extension, but it still needs more implementation work.
+This repo now receives a true source payload from the Phantasy monorepo. Keep removing assumptions that the extension must live in the flagship repo.
 
 ## Install
 

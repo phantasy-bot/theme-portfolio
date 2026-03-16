@@ -2,8 +2,8 @@
   "name": "portfolio",
   "displayName": "Portfolio",
   "version": "1.0.0",
-  "description": "Portfolio theme for showcasing work, services, case studies, and a companion's operating stack.",
-  "author": "Phantasy Team",
+  "description": "Portfolio theme for showcasing work, services, case studies, and a companion operating stack.",
+  "author": "Phantasy Labs",
   "workspace": "site",
   "extensionKind": "presentation",
   "pages": {
@@ -15,5 +15,12 @@
   "layouts": {
     "base": "layouts/base.html"
   },
-  "assets": "assets"
+  "assets": "assets",
+  "configSchema": {
+    "accentColor": {
+      "type": "color",
+      "default": "#f43f5e",
+      "label": "Accent Color"
+    }
+  }
 }
