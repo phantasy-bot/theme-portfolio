@@ -1,19 +1,40 @@
 {
   "name": "@phantasy/theme-portfolio",
-  "version": "1.0.0",
-  "description": "portfolio theme",
-  "main": "theme.json",
-  "type": "module",
-  "files": ["theme.json", "pages/", "layouts/", "partials/", "assets/"],
-  "keywords": ["phantasy", "theme", "portfolio"],
-  "author": "Phantasy Labs",
+  "version": "2.0.1",
+  "private": false,
+  "description": "Portfolio theme for showcasing work, services, case studies, and a companion's operating stack.",
   "license": "MIT",
+  "files": [
+    "assets",
+    "layouts",
+    "pages",
+    "theme.json",
+    "README.md",
+    "STATUS.md",
+    "SYNC_MANIFEST.json",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "keywords": [
+    "phantasy",
+    "theme",
+    "portfolio",
+    "services",
+    "projects",
+    "site"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/phantasy-bot/theme-portfolio"
   },
+  "homepage": "https://github.com/phantasy-bot/theme-portfolio",
+  "publishConfig": {
+    "access": "public"
+  },
   "phantasy": {
-    "type": "theme",
-    "category": "portfolio"
+    "kind": "theme",
+    "workspace": "site",
+    "extensionKind": "presentation",
+    "themeRoot": "."
   }
 }

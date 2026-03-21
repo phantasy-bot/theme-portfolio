@@ -1,0 +1,7 @@
+{
+  "slug": "theme-portfolio",
+  "kind": "theme",
+  "repoUrl": "https://github.com/phantasy-bot/theme-portfolio",
+  "phase": "source-extracted",
+  "packageName": "@phantasy/theme-portfolio"
+}
